@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketch Pad</title>
+  <style>
+    /* Add any desired styles for the divs here */
+    .grid-container {
+      display: grid;
+      grid-gap: 0;
+    }
+
+    .grid-item {
+      width: 30px; /* Adjust as needed */
+      height: 30px; /* Adjust as needed */
+      background-color: #eee; /* Adjust as needed */
+    }
+
+    #reset-button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button id="reset-button">Create New Grid</button>
+  <div class="grid-container" id="gridContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>

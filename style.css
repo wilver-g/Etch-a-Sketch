@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 50px); /* Width of each grid item */
+  grid-template-rows: repeat(16, 50px); /* Height of each grid item */
+  grid-gap: 0;
+  margin: 0;
+  }
+
+  .grid-item {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: #eee; /* Adjust as needed */
+  }
+
+  #reset-button {
+    margin-top: 10px;
+
+  }
